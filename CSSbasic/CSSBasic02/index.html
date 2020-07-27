@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <!--phần đầu-->
+    <head>
+        <title>Bài 3 - CSS cơ bản 2</title>
+        <meta charset="utf-8"> <!--utf-8 để viết tiếng việt-->
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+             h1#heading-id.heading-class{ 
+                color:violet;
+            }
+
+            #heading-id.heading-class{
+                color:blue;
+            }
+            h1{
+                color: red;
+            }
+            #heading-id{
+                color:yellow;
+            }    
+
+            .heading-class{
+                color: orange;
+            }
+        </style>
+    </head>
+    <!--Phần thân-->
+    <body>
+       <div>
+           <h1 id="first-heading">CSS Selector</h1>
+           <h1 class="second-heading">CSS Selector</h1>
+           <h1 class="second-heading">CSS Selector</h1>
+           <h1 id="heading-important">CSS Selector</h1>
+           <h2>Id & Class?</h2>
+            <p>
+                id: chỉ đặt 1 nơi, 1 tên duy nhất
+                <br/>
+                class: dùng chung cho nhiều đối tượng
+            </p>
+       </div>
+       <div>
+           <h1 style="/*color: green*/" id="heading-id" class="heading-class">Priority</h1>
+            <ol>
+                <li>Internal, External: Come last > Come first</li>
+                <li>Inline - 1000</li>
+                <li>#id - 100</li>
+                <li>.class - 10</li>
+                <li>tag - 1</li>
+                <li>Equal specificity? Come last > Come first</li>
+                <li>Universal selector - 0 (use *{CSS})> inherited</li>
+                <li>Use !important - 99999</li>
+            </ol>
+
+       </div>
+    </body>
+</html>
