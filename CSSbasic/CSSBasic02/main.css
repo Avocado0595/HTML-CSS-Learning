@@ -1,0 +1,20 @@
+*{
+    color: burlywood;
+}
+div{
+    color:red;
+}
+li {
+    color: blueviolet;
+}
+#heading-important{
+    color: goldenrod !important;
+}
+#first-heading {
+    color:Blue;
+}
+
+.second-heading{
+    color:orange;
+    font-size: 40px;
+}
