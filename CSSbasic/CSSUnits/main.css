@@ -1,0 +1,35 @@
+html{
+    font-size: 30px;
+}
+li{
+    font-size: 20px;
+    font-weight: normal;
+}
+.li-1{
+    font-weight: bold;
+}
+.box-px{
+    width:100px;
+    height: 100px;
+    background-color: lightblue;
+}
+.box-vw{
+    width:50vw; /*50% của cửa sổ*/
+    height: 100px;
+    background-color: lightcoral;
+}
+p{
+    font-size: 0.5em; /*=1.5 font-size của thẻ chứa nó gần nhất*/
+}
+.box-percent{
+    width:50%; /*50% của body*/
+    height: 100px;
+    background-color: rgb(187, 173, 230);
+}
+#li-em.li-1
+{
+    font-size: 1.5em; /*=1.5 font-size của thẻ chứa nó gần nhất*/
+}
+.li-rem{
+    font-size: 2rem;/*=2 font-size của của html*/
+}
