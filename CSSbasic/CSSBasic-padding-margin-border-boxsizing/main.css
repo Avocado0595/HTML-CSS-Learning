@@ -1,0 +1,44 @@
+.box{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    /*float: left; */ /*3 box nằm ngang*/
+}
+
+.box1
+{
+    background-color: red;
+    margin: 6px 7px 8px 9px;
+}
+.box2{
+    background-color: green;
+    padding: 7px 8px 9px 10px; /*Tăng kích thước element*/
+}
+.box3{
+    background-color: yellow;
+    border-width: 4px; /*Tăng kích thước element*/
+    border-style: solid; /*solid mặc định có width = 2px*/
+    border-color: blue;
+    margin: 6px 7px 8px 9px;
+}
+.box4{
+    width: 60px;
+    height: 60px;
+    font-size: 8px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 3px solid blue;
+    
+    box-sizing: border-box; /*Dùng box-sizing để fix kích thước element về width, height đã cài đặt*/
+    /*box-sizing:unset; để hủy box-sizing*/
+}
+.header{
+    width:100%;
+    height:100px;
+    background-color: #333;
+}
