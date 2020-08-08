@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Pseudo classes</title>
+        <meta charset="utf-8"/>
+        <style>
+            *{
+                font-size: 20px;
+            }
+            .box{
+                width:100%;
+                height: 100px;
+                background-color: aqua;
+            }
+
+            h1:hover{
+                color:red;
+            }
+            .h:hover{
+                color:red;
+                font-weight: bold;
+                font-style: italic;
+            }
+            .a:active{
+                color:blue;
+            }
+            li:last-child{
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <h1>CSS pseudo-classes</h1>
+        <ul>
+            <li class="r">:root</li>
+            <li class="h">:hover - rê chuột</li>
+            <li class="a">:active - click chuột</li>
+            <li class="f">:first-child - phần tử list đầu tiên</li>
+            <li class="l">:last-child - phần tử list cuối cùng</li>
+        </ul>
+
+    </body>
+</html>
