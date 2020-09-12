@@ -1,0 +1,6 @@
+++ Viền sáng trong ô input khi click chuột gọi là outline; set => outline: none; loại bỏ
++ cài đặt lại hiệu ứng outline:
+.element:focus{
+    border-color: black;
+}
+
